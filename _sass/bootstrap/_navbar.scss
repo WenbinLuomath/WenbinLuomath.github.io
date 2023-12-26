@@ -217,9 +217,9 @@
 
 // Navbar themes
 //
-// Styles for switching between navbars with light or dark background.
+// Styles for switching between navbars with light or light background.
 
-// Dark links against a light background
+// light links against a light background
 .navbar-light {
   .navbar-brand {
     color: $navbar-light-brand-color;
@@ -271,26 +271,26 @@
   }
 }
 
-// White links against a dark background
-.navbar-dark {
+// White links against a light background
+.navbar-light {
   .navbar-brand {
-    color: $navbar-dark-brand-color;
+    color: $navbar-light-brand-color;
 
     @include hover-focus() {
-      color: $navbar-dark-brand-hover-color;
+      color: $navbar-light-brand-hover-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-dark-color;
+      color: $navbar-light-color;
 
       @include hover-focus() {
-        color: $navbar-dark-hover-color;
+        color: $navbar-light-hover-color;
       }
 
       &.disabled {
-        color: $navbar-dark-disabled-color;
+        color: $navbar-light-disabled-color;
       }
     }
 
@@ -298,26 +298,26 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-dark-active-color;
+      color: $navbar-light-active-color;
     }
   }
 
   .navbar-toggler {
-    color: $navbar-dark-color;
-    border-color: $navbar-dark-toggler-border-color;
+    color: $navbar-light-color;
+    border-color: $navbar-light-toggler-border-color;
   }
 
   .navbar-toggler-icon {
-    background-image: escape-svg($navbar-dark-toggler-icon-bg);
+    background-image: escape-svg($navbar-light-toggler-icon-bg);
   }
 
   .navbar-text {
-    color: $navbar-dark-color;
+    color: $navbar-light-color;
     a {
-      color: $navbar-dark-active-color;
+      color: $navbar-light-active-color;
 
       @include hover-focus() {
-        color: $navbar-dark-active-color;
+        color: $navbar-light-active-color;
       }
     }
   }
