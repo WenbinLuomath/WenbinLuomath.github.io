@@ -9,5 +9,11 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 // @import "bootstrap_customization";
+$primary: $orange; // set the $primary variable
+
+// merge with existing $theme-colors map
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
 @import "bootstrap";
 @import "SHB_css";
