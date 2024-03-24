@@ -1893,7 +1893,7 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: #303030;
+  background-color: #eee;
 }
 
 .table-hover tbody tr:hover {
@@ -3030,8 +3030,8 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #303030;
-  border-color: #303030;
+  background-color: #eee;
+  border-color: #eee;
 }
 
 .btn-dark:hover {
@@ -3050,8 +3050,8 @@ fieldset:disabled a.btn {
 
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #303030;
-  border-color: #303030;
+  background-color: #eee;
+  border-color: #eee;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
@@ -3306,14 +3306,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #303030;
-  border-color: #303030;
+  color: #eee;
+  border-color: #eee;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #303030;
-  border-color: #303030;
+  background-color: #eee;
+  border-color: #eee;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -3322,15 +3322,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #303030;
+  color: #eee;
   background-color: transparent;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #303030;
-  border-color: #303030;
+  background-color: #eee;
+  border-color: #eee;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
@@ -5050,7 +5050,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #303030;
+  background-color: #eee;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -5585,7 +5585,7 @@ a.badge-light:focus, a.badge-light.focus {
 
 .badge-dark {
   color: #fff;
-  background-color: #303030;
+  background-color: #eee;
 }
 
 a.badge-dark:hover, a.badge-dark:focus {
