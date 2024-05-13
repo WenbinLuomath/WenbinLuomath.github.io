@@ -94,3 +94,7 @@ permalink: /about/
 </ul>
 </div>
 {% endif %}-->
+
+<span id="busuanzi_container_site_pv"> 
+    <span id="busuanzi_value_site_pv"></span>
+</span>
